@@ -1,0 +1,240 @@
+/* 页头 */
+
+.nav {
+    width: 100%;
+    height: 32px;
+    background-color: #fff;
+    border-bottom: 1px solid rgb(195, 194, 194);
+}
+
+.navbar {
+    width: 1200px;
+    height: 30px;
+    background-color: #fff;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar {
+    display: flex;
+    width: 350px;
+}
+
+.nav-bar1 {
+    background: url("../image/bl_logo_m.png") 2px center no-repeat;
+    line-height: 32px;
+}
+
+.nav-bar1 p {
+    width: 165px;
+    height: 30px;
+    font-size: 12px;
+    color: #8d8d8d;
+    margin-left: 17px;
+}
+
+.navigation {
+    display: flex;
+    position: relative;
+}
+
+.navigation p {
+    font-size: 12px;
+    color: #8d8d8d;
+    margin-left: 17px;
+    line-height: 32px;
+}
+
+.navigation p .icen {
+    font-size: 14px;
+    transition: all .3s;
+}
+
+.nav-bar p {
+    font-size: 12px;
+    color: #8d8d8d;
+    line-height: 32px;
+    margin-left: 15px;
+}
+
+.login {
+    background: url("../image/tools1200_sprite.png")no-repeat 0 -15px;
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    left: -6px;
+    top: 9px;
+}
+
+.z-nav {
+    position: absolute;
+    left: 0;
+    top: 30px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #d1cccc;
+    display: none;
+}
+
+.z-nav>ul {
+    width: 248px;
+    height: 64px;
+    padding: 7px 14px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.z-nav>ul>li {
+    font-size: 12px;
+    width: 100px;
+    height: 24px;
+    line-height: 24px;
+    padding: 0 10px;
+    position: relative;
+}
+
+.navigation:hover .z-nav {
+    display: block;
+}
+
+.navigation:hover .icen {
+    transform: rotate(180deg);
+    display: inline-block;
+    transition: all .3s;
+}
+
+.register>ul {
+    width: 577px;
+    line-height: 32px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+
+.register>ul>li>p {
+    font-size: 12px;
+}
+
+.register li {
+    position: relative;
+}
+
+.bl {
+    position: absolute;
+    left: -13px;
+    top: 30px;
+    display: none;
+}
+
+.bl ul {
+    width: 82px;
+    height: 120px;
+    background-color: #Fff;
+    border: 1px solid #d1cccc;
+    line-height: 23px;
+    text-align: center;
+}
+
+.bl ul li {
+    font-size: 12px;
+}
+
+.hover1:hover .bl {
+    display: block;
+}
+
+.hover1:hover .ho-v {
+    transform: rotate(180deg);
+    display: inline-block;
+    transition: all .3s;
+}
+
+
+/* *****************input框*********************************** */
+
+.lists {
+    width: 100%;
+    height: 96px;
+}
+
+.z-lists {
+    width: 1200px;
+    margin: 0 auto;
+    height: 96px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    width: 190px;
+    height: 65px;
+    margin-top: 20px;
+}
+
+.header img {
+    width: 150px;
+    height: 60px;
+}
+
+.shang {
+    width: 150px;
+    height: 65px;
+    margin-top: 20px;
+    margin-right: 15px;
+}
+
+.shang img {
+    width: 150px;
+    height: 60px;
+}
+
+.ipt input {
+    width: 426px;
+    height: 35px;
+    padding: 0 10px;
+    outline: none;
+    border: 2px solid #ff6655;
+    float: left;
+    border-right: none;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.val button {
+    width: 85px;
+    height: 35px;
+    font-size: 18px;
+    text-align: center;
+    background-color: #ff3d3d;
+    border: 1px solid #ff6655;
+    outline: none;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    float: left;
+    margin-top: 30px;
+}
+
+form {
+    width: 516px;
+}
+
+.treasure {
+    width: 123px;
+    height: 35px;
+    font-size: 12px;
+    color: #666;
+    padding: 0 19px 0 12px;
+    border: 1px solid #d7d7d7;
+    line-height: 35px;
+    margin-top: 28px;
+    margin-right: 20px;
+}
+
+form p {
+    margin-top: 70px;
+    font-size: 12px;
+    color: #999;
+}

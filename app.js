@@ -9,8 +9,7 @@ const li = require("./router/li")
 const guo = require("./router/guo")
     // 处理静态资源
 app.use(express.static('public'))
-
-//张楷
+    //张楷
 app.use('/zhang', zhang)
     //王广楠
 app.use('/wang', wang)
@@ -25,5 +24,4 @@ app.use('guo', guo)
 
 app.listen(3000, () => {
     console.log("服务器开启");
-
 })
