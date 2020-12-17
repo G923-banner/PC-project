@@ -1,5 +1,4 @@
-/*主体宽度定义*/
-.container{ width: 1190px; margin: 0px auto;}
+
 
 /* 页头 */
 .nav {
@@ -243,7 +242,8 @@ form p {
 
 
 
-
+/*主体宽度定义*/
+.container{ width: 1190px; margin: 0px auto;}
  /* 公共底部 */
  .footer_bar{ background:#f3f3f3; margin-top: 30px;}
  .footer_top_bar{ padding: 24px 0px; overflow: hidden;}
