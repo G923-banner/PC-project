@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./css/gg.css">
+    <link rel="stylesheet" type="text/css" href="./css/zhou.css">
+    <title>登录</title>
+    <style>
+        .footer_bar{ background:#fff;}
+    </style>
+</head>
+<body>
+    <!-- 头部 -->
+    <div class="login_top_bar">
+        <div class="header">
+            <img src="./image/header-logo.png" alt="">
+        </div>
+        <img src="./image/logon-logofont.png" alt="欢迎登录">
+    </div>
+    <!-- 头部end -->
+    <div class="login_middle_bar">
+        <div class="container">
+            <div class="login_middle_con">
+                <ul class="login_middle_tit jui_flex_row_center jui_flex_justify_between" id="tab_tit">
+                    <li class="login_tit_active">扫码登录</li>
+                    <li>会员登录</li>
+                </ul>
+                <div class="login_tabCon">
+                    <div class="login_code_bar">
+                        <img src="./image/queryQRcode.html.jpg">
+                        <div class="login_code_tip">
+                            <div class="jui_flex_col_center jui_flex_justify_center" style="width: 100%; height:100%;">
+                                <p>二维码已失效</p>
+                                <div class="login_code_btn jui_flex_center">刷新</div>
+                            </div>                            
+                        </div>
+                    </div>
+                    <p class="jui_text_center">打开<span class="jui_fc_zhuse">i百联</span>（7.0版本以上）扫描</p>
+                    <div class="jui_flex jui_flex_justify_center login_text_bar">
+                        <p class="jui_flex_row_center login_text">
+                            <img src="./image/login_icon1.png">
+                            <span>安全</span>
+                        </p>
+                        <p class="jui_flex_row_center login_text">
+                            <img src="./image/login_icon2.png">
+                            <span>便捷</span>
+                        </p>
+                        <p class="jui_flex_row_center login_text">
+                            <img src="./image/login_icon3.png">
+                            <span>免输入</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="login_tabCon none">
+                    <div class="login_error_bar">
+                        <div class="jui_flex_row_center">
+                            <img src="./image/v-icon-2.png">
+                            <p id="err_text">错误!</p>
+                       </div>
+                    </div>                    
+                    <div class="login_input_bar jui_flex_row_center">
+                          <img src="./image/userpic.png">
+                          <input class="jui_flex1" type="text" placeholder="用户名/手机号/邮箱" id="mobil">
+                     </div>
+                     <div class="login_input_bar jui_flex_row_center">
+                        <img src="./image/passwordpic.png">
+                        <input class="jui_flex1" type="password" placeholder="密码" id="psw">
+                   </div>
+                   <div class="jui_flex_row_center" style="margin-top: 20px;">
+                        <div class="jui_flex1 login_input_bar jui_flex_row_center" style="margin: 0px; margin-right:15px;">
+                            <img src="./image/passwordpic.png">
+                            <input id="img_yzm" class="jui_flex1" type="text" placeholder="验证码" style="width:120px;">
+                        </div>
+                        <div class="login_code_img" id="v_container"></div>
+                   </div>
+                   <a href="#" class="login_input_forget">忘记密码?</a>
+                   <button class="login_input_btn jui_flex_center" id="login_btn">登录</button>                   
+                </div>                
+                <div class="jui_flex_row_center jui_flex_justify_between login_link">
+                     <a href="register.html" class="jui_fc_blue">注册新账号</a>
+                     <a href="#" class="jui_flex_row_center">
+                         <img src="./image/right-icon.png">
+                         <p class="jui_fc_666">百联通会员卡首次登录</p>
+                     </a>
+                </div>
+                <div class="login_other"><span>其他账号登录</span></div>
+                <div class="jui_flex_row_center login_logo">
+                     <a href="#"></a>
+                     <a href="#"></a>
+                     <a href="#"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 固定底部 -->
+    <div class="footer_bar">
+        <div class="container">
+            <!-- 底部链接 -->
+            <div class="foot_link">
+                <a href="#">关于我们</a>|<a href="#">联系我们</a>|<a href="#">加盟合作</a>|<a href="#">诚征英才</a>|<a href="#">友情链接</a>|<a href="#">新零售合作</a>|
+            </div>
+            <!-- 底部链接end -->
+            <div class="foot_copyRight">百联集团有限公司版权所有<span>|</span>客服电话：400-900-8800<span>|</span><a href="#">沪ICP备15028847号-1</a></div>
+            <a href="#" class="foot_href">互联网药品信息服务资质证书编号：沪-（非营业性）-2016-0044</a>
+            <a href="#" class="foot_href">医疗器械网络交易服务第三方平台备案凭证-（沪）网械平台备字[2020]第00002号</a>
+            <a href="#" class="foot_href">全渠道增值电信业务经营许可证</a>
+            <div class="foot_police">
+                    <a href="#" class="foot_police_list">
+                        <img src="./image/gongan.png">
+                        <span>沪公网安备  31010102002366号</span>
+                    </a>
+                    <a href="#" class="foot_police_list">
+                        <img src="./image/gongs.png">
+                        <span>上海工商</span>
+                    </a>
+                    <a href="#" class="foot_police_list">
+                        <img src="./image/zhizhao.png">
+                        <span>经营执照</span>
+                    </a>
+                    <a href="#" class="foot_police_list">
+                        <img src="./image/wangjing1.png">
+                        <span>网购大家评</span>
+                    </a>
+            </div>
+        </div>
+    </div>
+    <!-- 固定底部end -->
+    <script src="./js/gVerify.js"></script>
+    <script src="./js/axios.min.js"></script>
+    <script src="./js/login.js"></script>  
+</body>
+</html>
