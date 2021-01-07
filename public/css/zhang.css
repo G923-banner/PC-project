@@ -926,3 +926,225 @@ form p {
 
 
 /* ******************** */
+
+
+/*主体宽度定义*/
+
+.container {
+    width: 1190px;
+    margin: 0px auto;
+}
+
+
+/* 公共底部 */
+
+.footer_bar {
+    background: #f3f3f3;
+    margin-top: 30px;
+}
+
+.footer_top_bar {
+    padding: 24px 0px;
+    -webkit-display: flex;
+    display: flex;
+}
+
+.footer_top_list {
+    width: 20%;
+}
+
+.footer_top_listIcon {
+    -webkit-display: flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.footer_top_listIcon p {
+    font-size: 16px;
+    color: #000;
+}
+
+.footer_top_listIcon i {
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+    display: inline-block;
+}
+
+.footer_top_listIcon i.footic1 {
+    background: url(../image/footer1200_sprite.png) no-repeat 0 0
+}
+
+.footer_top_listIcon i.footic2 {
+    background: url(../image/footer1200_sprite.png) no-repeat 0 -40px
+}
+
+.footer_top_listIcon i.footic3 {
+    background: url(../image/footer1200_sprite.png) no-repeat 0 -80px
+}
+
+.footer_top_listIcon i.footic4 {
+    background: url(../image/footer1200_sprite.png) no-repeat 0 -120px
+}
+
+.footer_top_listIcon i.footic5 {
+    background: url(../image/footer1200_sprite.png) no-repeat 0 -160px
+}
+
+.footer_top_list>ul {
+    padding-left: 55px;
+}
+
+.footer_top_list>ul>li>a {
+    font-size: 13px;
+    color: #555;
+    line-height: 26px;
+}
+
+.footer_top_list>ul>li>a:hover {
+    color: #e6133c;
+    text-decoration: underline;
+}
+
+.foot_ad {
+    -webkit-display: flex;
+    display: flex;
+    padding: 10px 0px 30px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.foot_ad a {
+    padding: 0px 8px;
+    height: 80px;
+    width: 33.333%;
+}
+
+.foot_ad a img {
+    width: 100%;
+    height: 100%;
+}
+
+.foot_link {
+    color: #999;
+    font-size: 12px;
+    text-align: center;
+    line-height: 24px;
+    font-size: 14px;
+}
+
+.foot_link a {
+    color: #333;
+    font-size: 12px;
+    padding: 0px 8px;
+}
+
+.foot_copyRight {
+    text-align: center;
+    color: #999;
+    line-height: 24px;
+    font-size: 14px;
+}
+
+.foot_copyRight span {
+    padding: 0px 8px;
+    color: #ccc;
+}
+
+.foot_copyRight a {
+    color: #000;
+}
+
+.foot_copyRight a:hover {
+    color: #e6133c;
+}
+
+.foot_href {
+    display: block;
+    line-height: 24px;
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+}
+
+.foot_police {
+    padding: 10px 0px 20px;
+    -webkit-display: flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+
+.foot_police_list {
+    display: inline-block;
+    overflow: hidden;
+    padding: 0px 8px;
+    -webkit-display: flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+.foot_police_list img {
+    width: 20px;
+    height: 20px;
+    margin-right: 13px;
+}
+
+.foot_police_list span {
+    color: #999;
+}
+
+
+/* ***********************快报*************** */
+
+.banner .bulletin {
+    width: 215px;
+    height: 420px;
+    background-color: #fff;
+    position: absolute;
+    right: 200px;
+    top: 0;
+    z-index: 999;
+}
+
+.z-bull {
+    width: 215px;
+    height: 67px;
+    padding: 14px 14px 0
+}
+
+.z-bull img {
+    width: 46px;
+    height: 46px;
+    float: left;
+    margin-right: 10px;
+}
+
+.z-bull>.txt {
+    font-size: 12px;
+    float: left;
+}
+
+.test a {
+    display: block;
+    width: 185px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    border: none;
+    border-radius: 1px;
+    font-size: 12px;
+    color: #ff6f6f;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.test a:hover {
+    background: #ff6f6f;
+    color: #fff;
+}

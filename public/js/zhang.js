@@ -133,16 +133,14 @@ showmainlist.forEach((item, index) => {
                 var shop = res.data.data
                 var html = ''
                 for (var j = 0; j < shop.length; j++) {
-                    // console.log(666666,j);
-                    // console.log(shop[j].titlemain);
                     html += `
-                                    <li>
-                                        <div class="showlist">
-                                            <span><a href="javascript:;">${shop[j].titlemain}</a>&nbsp;></span>
-                                            <div class="fllorlist">
-                                                <a href="javascript:;" class="under">${shop[j].main}</a>
-                                            </div>
+                                <li>
+                                    <div class="showlist">
+                                        <span><a href="javascript:;">${shop[j].titlemain}</a>&nbsp;></span>
+                                        <div class="fllorlist">
+                                            <a href="javascript:;" class="under">${shop[j].main}</a>
                                         </div>
+                                    </div>
                                     </li>
                                 `
                 }
